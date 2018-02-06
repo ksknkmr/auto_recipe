@@ -13,13 +13,13 @@ import csv
 count = 0
 
 #CSV操作
-f = open("cookpad_data1.csv","a")
+f = open("XXXXX.csv","a")
 writer = csv.writer(f, lineterminator="\n")
 
 # WebDriver起動
 driver = webdriver.Chrome()
-query = "ドリアン"
-driver.get("https://cookpad.com/search/" + query)
+query = "XXX"
+driver.get("XXXXX" + query)
 
 #クローリング
 while True:
